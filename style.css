@@ -1,3 +1,7 @@
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
 .modal-close {
     width: 15px;
     float:right;

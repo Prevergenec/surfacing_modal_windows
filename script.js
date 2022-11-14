@@ -48,7 +48,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 i++
                 console.log(window.scrollY);
                 if (i == 1) {
-                    document.removeEventListener('scroll', func);
+                    document.removeEventListener('scroll', func); // open once when scrolling
                 }
                 
             }
